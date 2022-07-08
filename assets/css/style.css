@@ -1,0 +1,49 @@
+/* import poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* root */
+:root {
+   --dark-green: #18a558;
+   --btn-danger: #f93a3a;
+}
+
+/* style */
+body {
+   font-family: "Poppins", sans-serif;
+}
+.text-success {
+   color: var(--dark-green) !important;
+}
+.active {
+   color: var(--dark-green) !important;
+   font-weight: 600;
+}
+
+section {
+   min-height: 100vh;
+}
+
+.btn-danger {
+   --bs-btn-bg: var(--btn-danger);
+   --bs-btn-border-color: #dc3545;
+   --bs-btn-hover-bg: #ff2222;
+   --bs-btn-hover-border-color: #b02a37;
+   --bs-btn-active-bg: var(--btn-danger);
+   --bs-btn-active-border-color: #a52834;
+   border-radius: 30px;
+}
+
+.btn-outline-danger {
+   --bs-btn-color: var(--btn-danger);
+   --bs-btn-border-color: var(--btn-danger);
+   --bs-btn-hover-bg: var(--btn-danger);
+   --bs-btn-hover-border-color: var(--btn-danger);
+   --bs-btn-active-bg: var(--btn-danger);
+   --bs-btn-active-border-color: var(--btn-danger);
+   --bs-btn-disabled-color: var(--btn-danger);
+   border-radius: 30px;
+}
+
+.title-banner {
+   font-size: 3.7rem;
+}
