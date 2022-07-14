@@ -72,3 +72,35 @@ nav {
    background-position: center;
    background-repeat: no-repeat;
 }
+
+
+/* CONTACT & FOOTER */
+textarea {
+   resize: none;
+}
+
+.contact-card{
+   background-color: #F6F6F6;
+   box-shadow: 0px 0 30px 0 rgb(209 222 214 / 56%);
+   border-radius: 10px;
+   z-index: 1;
+}
+
+.footer {
+   background-color: #212121;
+   color: #F6F6F6;
+   position: absolute;
+    left: 0;
+    right: 0;
+    top: -280px;
+}
+
+.footer ul {
+   list-style: none;
+   margin-left: -30px;
+}
+
+.footer a {
+   text-decoration: none;
+   color: inherit;
+}
