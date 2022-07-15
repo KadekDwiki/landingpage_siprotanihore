@@ -14,9 +14,11 @@
    </head>
    <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
       <!-- navbar -->
-      <nav class="navbar navbar-expand-lg py-4 fixed-top" id="navbar">
-         <div class="container-fluid px-5 d-flex justify-content-between">
-            <a class="navbar-brand fw-bold text-success" href="#">SiprotaniHore</a>
+      <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+         <div class="container-md d-flex justify-content-between">
+            <a class="navbar-brand" href="./">
+               <img src="assets/image/sh customer.png" alt="" width="50">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
             </button>
@@ -38,21 +40,26 @@
             </div>
          </div>
       </nav>
+      <!-- loader -->
+      <div class="loader-wrapper position-fixed">
+         <img src="assets/image/loader-gif.gif" class="position-absolute top-50 start-50 translate-middle" alt="loader">
+      </div>
       <!-- hero banner jumbotron -->
-         <section  id="home"> 
-            <span class="circle-jumbotron"></span>
+         <section  id="home" class="position-relative overflow-hidden"> 
+            <span class="circle-jumbotron position-absolute"></span>
+            <img src="assets/image/bintang-jumbotron.png" class="position-absolute dekor-bintang" alt="dekorasi bintang" width="400">
             <div class="container d-flex align-items-center pt-5">
                <div class="row align-items-center justify-content-between pt-3">
                   <div class="col">
-                     <h1 class="fw-bold text-capitalize lh-md text-success title-banner">a powefull app for your bussines</h1>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet. Lorem, ipsum dolor.</p>
+                     <h1 class="fw-bold text-capitalize lh-md text-success title-banner">siprotani hore</h1>
+                     <p class="py-4">Siprotani Hore is an application than make an easier for you as as seller who wants to sell and you as a buyer who wants to shop for a basic needs. <span class="fw-bold">Lets get the app now!</span></p>
                      <div class="button-download mt-3">
                         <a href="#" class="btn btn-danger me-2"><i class="fa-brands fa-app-store fa-xl"></i> App Store</a>
                         <a href="#" class="btn btn-outline-danger"><i class="fa-brands fa-google-play fa-xl"></i> Google Play</a>
                      </div>
                   </div>
-                  <div class="col text-end">
-                     <img src="assets/image/banner image group.png" class="w-75 pt-5" alt="jumbotron image"></i>
+                  <div class="col text-end jumbotron-img">
+                     <img src="assets/image/banner_image.png" class="pt-5" alt="jumbotron image"></i>
                   </div>
                </div>
             </div>
@@ -80,10 +87,21 @@
             </div>            
          </section>
 
-         <!-- section why siprotani can be solutions nea -->
+         <!-- section why siprotani can be solutions nea diambil ama dwiki -->
          <section id="about-us-2" class="py-5">
             <div class="container">
                <!-- your code start here -->
+               <h1 class="text-uppercase text-success fw-bold text-center mb-5">why siprotani can be solution ?</h1>
+               <div class="row justify-content-center align-items-center">
+                  <div class="col-6">
+                     <img src="assets/image/gambar pemandangan.png" alt="" class="w-100">
+                  </div>
+                  <div class="col-6">
+                     <p class="fs-5">With Siprotani, its easy for you to buy kitchen necessity whenever and wherever you are of course with affordable prices.</p>
+                     <p class="fs-5">addition, the product marketed are superior and safe to use by consumers. Siprotani have a online payment and superior features for solve all the problem.</p> 
+                     <p class="fs-5">Because siprotani uses digital payments, every purchase and sale of products can be made online and payments can also be made online, this of course can save a lot of time.</p>
+                  </div>
+               </div>
             </div>            
          </section>
 
