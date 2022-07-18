@@ -99,16 +99,15 @@ nav {
    }
 }
 
-
 /* CONTACT & FOOTER */
 textarea {
    resize: none;
 }
-#contact-us{
-   min-height:600px;
+#contact-us {
+   min-height: 600px;
 }
 .contact-card {
-   background-color: #F6F6F6;
+   background-color: #f6f6f6;
    box-shadow: 0px 0 30px 0 rgb(209 222 214 / 56%);
    border-radius: 10px;
    z-index: 1;
@@ -116,7 +115,7 @@ textarea {
 
 .footer {
    background-color: #212121;
-   color: #F6F6F6;
+   color: #f6f6f6;
    position: absolute;
    left: 0;
    right: 0;
