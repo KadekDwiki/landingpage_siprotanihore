@@ -24,6 +24,15 @@ const form = document.forms["Message"];
 form.addEventListener("submit", (e) => {
    e.preventDefault();
    fetch(scriptURL, { method: "POST", body: new FormData(form) })
-      .then((response) => alert("Success!"))
-      .catch((error) => console.error("Error!", error.message));
+      .then((response) => alert2("Success!", 'success'))
+      .catch((error) => alert2("Error!", 'danger'));
 });
+
+var alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+
+function alert2(message, type) {
+  var wrapper = document.createElement('div')
+  wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">' + message + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
+
+  alertPlaceholder.append(wrapper)
+}
