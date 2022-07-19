@@ -1,367 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-   <meta charset="UTF-8" />
-   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <!-- bootstrap css -->
-   <link rel="stylesheet" href="assets/bootstrap-5.2.0-beta1-dist/css/bootstrap.css" />
-   <!-- font awesome kit -->
-   <script src="https://kit.fontawesome.com/d66a7a980c.js" crossorigin="anonymous"></script>
-   <!-- css -->
-   <link rel="stylesheet" href="assets/css/style.css" />
-   <title>landing page siprotani</title>
-</head>
-
-<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
-   class="scrollspy-example" tabindex="0">
-   <!-- navbar -->
-   <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
-      <div class="container-md d-flex justify-content-between">
-         <a class="navbar-brand" href="./">
-            <img src="assets/image/sh customer.png" alt="" width="50">
-         </a>
-         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-               <li class="nav-item ms-4">
-                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
-               </li>
-               <li class="nav-item ms-4">
-                  <a class="nav-link" href="#product">Product</a>
-               </li>
-               <li class="nav-item ms-4">
-                  <a class="nav-link" href="#portfolio">Portfolio</a>
-               </li>
-               <li class="nav-item ms-4">
-                  <a class="nav-link" href="#contact-us">Contact</a>
-               </li>
-            </ul>
-         </div>
-      </div>
-   </nav>
-      <!-- loader -->
-      <div class="loader-wrapper position-fixed">
-         <img src="assets/image/loader-gif.gif"
-            class="position-absolute top-50 start-50 translate-middle" alt="loader">
-      </div>
-<!-- hero banner jumbotron -->
-<section id="home" class="position-relative overflow-hidden">
-   <span class="circle-jumbotron position-absolute"></span>
-   <img src="assets/image/bintang-jumbotron.png" class="position-absolute dekor-bintang"
-      alt="dekorasi bintang" width="400">
-   <div class="container d-flex align-items-center pt-5">
-      <div class="row align-items-center justify-content-between pt-3">
-         <div class="col">
-            <h1 class="fw-bold text-capitalize lh-md text-success title-banner">siprotani hore</h1>
-            <p class="py-4">Siprotani Hore is an application than make an easier for you as as
-               seller who wants to sell and you as a buyer who wants to shop for a basic needs.
-               <span class="fw-bold">Lets get the app now!</span>
-            </p>
-            <div class="button-download mt-3">
-               <a href="#" class="btn btn-danger me-2"><i class="fa-brands fa-app-store fa-xl"></i>
-                  App Store</a>
-               <a href="#" class="btn btn-outline-danger"><i
-                     class="fa-brands fa-google-play fa-xl"></i> Google Play</a>
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="assets/bootstrap-5.2.0-beta1-dist/css/bootstrap.css" />
+      <!-- font awesome kit -->
+      <script src="https://kit.fontawesome.com/d66a7a980c.js" crossorigin="anonymous"></script>
+      <!-- AOS  -->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <!-- css -->
+      <link rel="stylesheet" href="assets/css/style.css" />
+      <title>landing page siprotani</title>
+   </head>
+   <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+      class="scrollspy-example" tabindex="0">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+         <div class="container-md d-flex justify-content-between">
+            <a class="navbar-brand" href="./">
+               <img src="assets/image/sh customer.png" alt="" width="50" data-aos="flip-left" data-aos-duration="1500">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+               <ul class="navbar-nav">
+                  <li class="nav-item ms-4">
+                     <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item ms-4">
+                     <a class="nav-link" href="#product">Product</a>
+                  </li>
+                  <li class="nav-item ms-4">
+                     <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item ms-4">
+                     <a class="nav-link" href="#contact-us">Contact</a>
+                  </li>
+               </ul>
             </div>
          </div>
-         <div class="col text-end jumbotron-img">
-            <img src="assets/image/banner_image.png" class="pt-5" alt="jumbotron image"></i>
+      </nav>
+         <!-- loader -->
+         <div class="loader-wrapper position-fixed">
+            <img src="assets/image/loader-gif.gif"
+               class="position-absolute top-50 start-50 translate-middle" alt="loader">
          </div>
-      </div>
-   </div>
-   </section>
-   <!-- alert jangan otak atik code yang bukan bagiannya masing masing , ty! -->
-
-   <!-- section product adit -->
-   <section id="product" class="py-5">
-      <div class="container">
-         <div class="row">
-            <div class="col-12 text-center mt-5">
-               <h1 class="fw-semibold">Layanan <span class="fw-bold text-success">Terbaik</span> Untuk Kalian</h1>
-            </div>
-         </div>
-         <div class="row justify-content-center mt-4">
-            <div class="col-md-3 mx-4 mt-5">
-               <div class="card mx-2 card-1 position-relative p-4">
-                  <img src="assets/image/sembako.png"
-                     class="card-img-top position-absolute top-50 start-50 translate-middle" alt="..."
-                     width="100">
-                  <div class="card-body position-absolute d-flex justify-content-start flex-column"
-                     style="left: 0; bottom: 0;">
-                     <h5 class="card-title h4" style="color:white;">craft</h5>
-                     <p class="card-text fixed-buttom" style="color:white ;">Some quick example text to
-                        build on the
-                        card title and
-                        make up
-                        the bulk of the
-                        card's content.</p>
+       <!-- hero banner jumbotron -->
+      <section id="home" class="position-relative overflow-hidden">
+         <span class="circle-jumbotron position-absolute"></span>
+         <img src="assets/image/bintang-jumbotron.png" class="position-absolute dekor-bintang"
+            alt="dekorasi bintang" width="400">
+         <div class="container d-flex align-items-center pt-5">
+            <div class="row align-items-center justify-content-between pt-3">
+               <div class="col desc-jumbotron"  data-aos="fade-right" data-aos-duration="1000">
+                  <h1 class="fw-bold text-capitalize lh-md text-success title-banner">siprotani hore</h1>
+                  <p class="py-4">Siprotani Hore is an application than make an easier for you as as
+                     seller who wants to sell and you as a buyer who wants to shop for a basic needs.
+                     <span class="fw-bold">Lets get the app now!</span>
+                  </p>
+                  <div class="button-download mt-3">
+                     <a href="#" class="btn btn-danger me-2"><i class="fa-brands fa-app-store fa-xl"></i>
+                        App Store</a>
+                     <a href="#" class="btn btn-outline-danger"><i
+                           class="fa-brands fa-google-play fa-xl"></i> Google Play</a>
                   </div>
                </div>
-            </div>
-            <div class="col-md-3 mx-4 mt-5">
-               <div class="card mx-2 card-1 position-relative p-4">
-                  <img src="assets/image/sayur.png"
-                     class="card-img-top position-absolute top-50 start-50 translate-middle" alt="..."
-                     width="100">
-                  <div class="card-body position-absolute d-flex justify-content-start flex-column"
-                     style="left: 0; bottom: 0;">
-                     <h5 class="card-title h4" style="color:white;">craft</h5>
-                     <p class="card-text fixed-buttom" style="color:white ;">Some quick example text to
-                        build on the
-                        card title and
-                        make up
-                        the bulk of the
-                        card's content.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-3 mx-4 mt-5">
-               <div class="card mx-2 card-1 position-relative p-4">
-                  <img src="assets/image/buah.png"
-                     class="card-img-top position-absolute top-50 start-50 translate-middle" alt="..."
-                     width="100">
-                  <div class="card-body position-absolute d-flex justify-content-start flex-column"
-                     style="left: 0; bottom: 0;">
-                     <h5 class="card-title h4" style="color:white;">craft</h5>
-                     <p class="card-text fixed-buttom" style="color:white ;">Some quick example text to
-                        build on the
-                        card title and
-                        make up
-                        the bulk of the
-                        card's content.</p>
-                  </div>
+               <div class="col text-end jumbotron-img">
+                  <img src="assets/image/banner_image.png" class="pt-5" data-aos="fade-left" data-aos-duration="1500" alt="jumbotron image"></i>
                </div>
             </div>
          </div>
+      </section>
+      <!-- alert jangan otak atik code yang bukan bagiannya masing masing , ty! -->
 
-         <!-- row 2 -->
-         <div class="row justify-content-center mt-4">
-            <div class="col-md-3 mx-4 mt-5">
-               <div class="card mx-2 card-1 position-relative p-4">
-                  <img src="assets/image/snack.png"
-                     class="card-img-top position-absolute top-50 start-50 translate-middle" alt="..."
-                     width="100">
-                  <div class="card-body position-absolute d-flex justify-content-start flex-column"
-                     style="left: 0; bottom: 0;">
-                     <h5 class="card-title h4" style="color:white;">craft</h5>
-                     <p class="card-text fixed-buttom" style="color:white ;">Some quick example text to
-                        build on the
-                        card title and
-                        make up
-                        the bulk of the
-                        card's content.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-3 mx-4 mt-5">
-               <div class="card mx-2 card-1 position-relative p-4">
-                  <img src="assets/image/minuman.png"
-                     class="card-img-top position-absolute top-50 start-50 translate-middle" alt="..."
-                     width="100">
-                  <div class="card-body position-absolute d-flex justify-content-start flex-column"
-                     style="left: 0; bottom: 0;">
-                     <h5 class="card-title h4" style="color:white;">craft</h5>
-                     <p class="card-text fixed-buttom" style="color:white ;">Some quick example text to
-                        build on the
-                        card title and
-                        make up
-                        the bulk of the
-                        card's content.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-3 mx-4 mt-5">
-               <div class="card mx-2 card-1 position-relative p-4">
-                  <img src="assets/image/craft.png"
-                     class="card-img-top position-absolute top-50 start-50 translate-middle" alt="..."
-                     width="100">
-                  <div class="card-body position-absolute d-flex justify-content-start flex-column"
-                     style="left: 0; bottom: 0;">
-                     <h5 class="card-title h4" style="color:white;">craft</h5>
-                     <p class="card-text fixed-buttom" style="color:white ;">Some quick example text to
-                        build on the
-                        card title and
-                        make up
-                        the bulk of the
-                        card's content.</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   
-   <!-- section portfolio adit -->
-   <section id="portfolio" class="py-5 mt-4 fw-bold">
-      <h1 class="text-center mt-5 fw-bold"> PORTOFOLIO</h1>
-      <h5 class="text-center mb-5 mt-3 text-success"> Periode Jul 04-Aug 04</h5>
-      <div class="container mt-5 pt-2">
-         <div class="row mt-5">
-            <div class="col-md-3 d-block text-center">
-               <i class="fa-solid fa-user-group fa-4x mx-4"></i>
-               <p>client</p>
-               <p class="fs-3">1</p>
-            </div>
-            <div class="col-md-3 d-block text-center">
-               <i class="fa-solid fa-award fa-4x mx-4"></i>
-               <p>Review</p>
-               <p class="fs-3">4,6</p>
-            </div>
-            <div class="col-md-3 d-block text-center">
-               <i class="fa-solid fa-download fa-4x mx-4"></i>
-               <p>Download</p>
-               <p class="fs-3">1 M+</p>
-            </div>
-            <div class="col-md-3 d-block text-center">
-               <i class="fa-solid fa-box-open fa-4x mx-4"></i>
-               <p>Product</p>
-               <p class="fs-3">6</p>
-            </div>
-         </div>
-      </div>
-   </section>
-
-   <!-- section about us problem before siprotani made nea  -->
-   <section id="about-us-1" class="py-5">
-      <div class="container">
-         <!-- your code start here -->
-      </div>
-   </section>
-
-   <!-- section why siprotani can be solutions nea diambil dwiki -->
-   <section id="about-us-2" class="py-5">
-      <div class="container">
-         <!-- your code start here -->
-         <h1 class="text-uppercase text-success fw-bold text-center mb-5">why siprotani can be
-            solution ?</h1>
-         <div class="row justify-content-center align-items-center">
-            <div class="col-6">
-               <img src="assets/image/gambar pemandangan.png" alt="" class="w-100">
-            </div>
-            <div class="col-6">
-               <p class="fs-5">With Siprotani, its easy for you to buy kitchen necessity whenever and
-                  wherever you are of course with affordable prices.</p>
-               <p class="fs-5">addition, the product marketed are superior and safe to use by
-                  consumers. Siprotani have a online payment and superior features for solve all the
-                  problem.</p>
-               <p class="fs-5">Because siprotani uses digital payments, every purchase and sale of
-                  products can be made online and payments can also be made online, this of course can
-                  save a lot of time.</p>
-            </div>
-         </div>
-      </div>
-   </section>
-
-   <!-- section why should use siprotani nea -->
-   <section id="about-us-3" class="py-5">
-      <div class="container">
-         <!-- your code start here -->
-      </div>
-   </section>
-
-   <!-- section contact us dwik -->
-   <section id="contact-us" class="py-5 position-relative">
-      <div class="container mt-5">
-         <div class="row">
-            <div class="container col">
-               <div class="mb-5">
-                  <h2 class="fw-bold text-success">GET IN TOUCH</h2>
-                  <p>Queries, concern, doubt? We’re to listen! Siprotani strives to offer the best possible service to
-                     every contact. Our support team make sure that you get the best advices and guidence regarding
-                     whatever queries you have.</p>
-               </div>
-               <div class="ms-3">
-                  <div class="row mb-2 d-flex">
-                     <i class="col-1 h3 me-2 fa-solid fa-envelope text-success"></i>
-                     <p class="col align-middle">siprotanihore@gmail.com</p>
-                  </div>
-                  <div class="row mb-2 d-flex">
-                     <i class="col-1 h3 me-2 fa-solid fa-phone text-success"></i>
-                     <p class="col align-middle">+6281 9176 7780</p>
-                  </div>
-                  <div class="row mb-2 d-flex">
-                     <i class="col-1 h3 me-2 fa-solid fa-location-dot text-success"></i>
-                     <p class="col align-middle">Jl. Seroja No. 36 Denpasar</p>
-                  </div>
-               </div>
-            </div>
-
-            <div class="col position-relative">
-               <div class="container contact-card position-absolute">
-                  <div class="m-5">
-                     <div class="my-4 text-center">
-                        <h3 class="fw-bold text-success">Say Something!</h3>
-                     </div>
-                     <form name="Message">
-                        <div class="mb-3">
-                           <input type="text" class="form-control" name="Name" placeholder="Name" required>
-                        </div>
-                        <div class="mb-3">
-                           <input type="email" class="form-control" name="Email" placeholder="Email" required>
-                        </div>
-                        <div class="mb-3">
-                           <textarea class="form-control" name="Message" placeholder="Message" rows="10"
-                              required></textarea>
-                        </div>
-                        <div id="liveAlertPlaceholder"></div>
-                        <button type="submit" class="btn btn-success">Send</button>
-                     </form>
-                  </div>
-               </div>
-            </div>
-
-         </div>
-      </div>
-   </section>
-
-   <!-- footer dwik -->
-   <footer class="position-relative">
-      <div class="footer">
+      <!-- section product adit -->
+      <section id="product" class="py-5">
          <div class="container">
-            <div class="row py-5">
-               <div class="col-4 me-5">
-                  <h2 class="fw-bold">SIPROTANI</h2>
-                  <p>Siprotani Hore is an application than make an easier for you as as seller who
-                     wants to sell and you as a buyer who wants to shop for a basic needs</p>
-               </div>
-               <div class="col">
-                  <h5 class="fw-bold">Navigasi</h5>
-                  <ul>
-                     <li>
-                        <a aria-current="page" href="#home">Home</a>
-                     </li>
-                     <li>
-                        <a href="#product">Product</a>
-                     </li>
-                     <li>
-                        <a href="#portfolio">Portfolio</a>
-                     </li>
-                     <li>
-                        <a href="#contact-us">Contact</a>
-                     </li>
-                  </ul>
+            <div class="row">
+               <div class="col-12 text-center mt-5">
+                  <h1 class="fw-semibold">Layanan <span class="fw-bold text-success">Terbaik</span> Untuk Kalian</h1>
                </div>
             </div>
-            <div class="text-center mt-5 pt-5">
-               <i class="mx-1 fa-brands fa-facebook"></i>
-               <i class="mx-1 fa-brands fa-instagram"></i>
-               <i class="mx-1 fa-brands fa-whatsapp"></i>
+            <div class="row justify-content-center mt-4">
+               <div class="col-md-3 mx-4 mt-5" data-aos="flip-up" data-aos-duration="500">
+                  <div class="card mx-2 card-1 position-relative p-4">
+                     <div class="card-body position-absolute d-flex justify-content-start flex-column"
+                        style="left: 0; bottom: 0;">
+                        <h5 class="card-title h4" style="color:white;">sembako</h5>
+                        <p class="card-text fixed-buttom" style="color:white;">Some quick example text to
+                           build on the
+                           card title and
+                           make up
+                           the bulk of the
+                           card's content.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 mx-4 mt-5" data-aos="flip-up" data-aos-duration="1000">
+                  <div class="card mx-2 card-2 position-relative p-4">
+                     <div class="card-body position-absolute d-flex justify-content-start flex-column"
+                        style="left: 0; bottom: 0;">
+                        <h5 class="card-title h4" style="color:white;">sayuran</h5>
+                        <p class="card-text fixed-buttom" style="color:white ;">Some quick example text to
+                           build on the
+                           card title and
+                           make up
+                           the bulk of the
+                           card's content.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 mx-4 mt-5" data-aos="flip-up" data-aos-duration="1500">
+                  <div class="card mx-2 card-3 position-relative p-4">
+                     <div class="card-body position-absolute d-flex justify-content-start flex-column"
+                        style="left: 0; bottom: 0;">
+                        <h5 class="card-title h4" style="color:white;">buah</h5>
+                        <p class="card-text fixed-buttom" style="color:white ;">Some quick example text to
+                           build on the
+                           card title and
+                           make up
+                           the bulk of the
+                           card's content.</p>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <div>
-               <p>©2022Copyright by Siprotani Hore</p>
+
+            <!-- row 2 -->
+            <div class="row justify-content-center mt-4" data-aos="flip-up" data-aos-duration="500">
+               <div class="col-md-3 mx-4 mt-5">
+                  <div class="card mx-2 card-4 position-relative p-4">
+                     <div class="card-body position-absolute d-flex justify-content-start flex-column"
+                        style="left: 0; bottom: 0;">
+                        <h5 class="card-title h4" style="color:white;">miniman</h5>
+                        <p class="card-text fixed-buttom" style="color:white ;">Some quick example text to
+                           build on the
+                           card title and
+                           make up
+                           the bulk of the
+                           card's content.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 mx-4 mt-5" data-aos="flip-up" data-aos-duration="1000">
+                  <div class="card mx-2 card-5 position-relative p-4">
+                     <div class="card-body position-absolute d-flex justify-content-start flex-column"
+                        style="left: 0; bottom: 0;">
+                        <h5 class="card-title h4" style="color:white;">snack</h5>
+                        <p class="card-text fixed-buttom" style="color:white ;">Some quick example text to
+                           build on the
+                           card title and
+                           make up
+                           the bulk of the
+                           card's content.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 mx-4 mt-5" data-aos="flip-up" data-aos-duration="1500">
+                  <div class="card mx-2 card-6 position-relative p-4">
+
+                     <div class="card-body position-absolute d-flex justify-content-start flex-column"
+                        style="left: 0; bottom: 0;">
+                        <h5 class="card-title h4" style="color:white;">craft</h5>
+                        <p class="card-text fixed-buttom" style="color:white ;">Some quick example text to
+                           build on the
+                           card title and
+                           make up
+                           the bulk of the
+                           card's content.</p>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
-      </div>
-   </footer>
-   <!-- bootstrap js -->
-   <script src="assets/bootstrap-5.2.0-beta1-dist/js/bootstrap.js"></script>
-   <!-- js -->
-   <script src="assets/js/script.js"></script>
-</body>
+      </section>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="bg-danger">
+         <path fill="#f6f6f6" fill-opacity="1" d="M0,96L60,128C120,160,240,224,360,208C480,192,600,96,720,96C840,96,960,192,1080,234.7C1200,277,1320,267,1380,261.3L1440,256L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+       </svg>
 
+      <!-- section portfolio adit -->
+      <section id="portfolio" class="py-5 mt-4 fw-bold">
+         <h1 class="text-center mt-5 fw-bold"> PORTOFOLIO</h1>
+         <h5 class="text-center mb-5 mt-3 text-success"> Periode Jul 04-Aug 04</h5>
+         <div class="container mt-5 pt-2">
+            <div class="row mt-5">
+               <div class="col-md-3 d-block text-center" data-aos="zoom-out-up" data-aos-duration="1000">
+                  <i class="fa-solid fa-user-group fa-4x mx-4"></i>
+                  <p>client</p>
+                  <p class="fs-3" id="client"></p>
+               </div>
+               <div class="col-md-3 d-block text-center" data-aos="zoom-out-up" data-aos-duration="1200">
+                  <i class="fa-solid fa-award fa-4x mx-4"></i>
+                  <p>Review</p>
+                  <p class="fs-3" id="review"></p>
+               </div>
+               <div class="col-md-3 d-block text-center" data-aos="zoom-out-up" data-aos-duration="1400">
+                  <i class="fa-solid fa-download fa-4x mx-4"></i>
+                  <p>Download</p>
+                  <p class="fs-3" id="download"></p>
+               </div>
+               <div class="col-md-3 d-block text-center" data-aos="zoom-out-up" data-aos-duration="1600">
+                  <i class="fa-solid fa-box-open fa-4x mx-4"></i>
+                  <p>Product</p>
+                  <p class="fs-3" id="produk"></p>
+               </div>
+            </div>
+         </div>
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#18a558" fill-opacity="0.1" d="M0,160L60,170.7C120,181,240,203,360,181.3C480,160,600,96,720,90.7C840,85,960,139,1080,170.7C1200,203,1320,213,1380,218.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+      </section>
+
+      <!-- section about us problem before siprotani made nea  -->
+      <section id="about-us-1" class="py-5">
+         <div class="container">
+            <!-- your code start here -->
+         </div>
+      </section>
+
+      <!-- section why siprotani can be solutions nea diambil dwiki -->
+      <section id="about-us-2" class="py-5">
+         <div class="container">
+            <!-- your code start here -->
+            <h1 class="text-uppercase text-success fw-bold text-center mb-5">why siprotani can be
+               solution ?</h1>
+            <div class="row justify-content-center align-items-center">
+               <div class="col-6">
+                  <img src="assets/image/gambar pemandangan.png" alt="" class="w-100">
+               </div>
+               <div class="col-6">
+                  <p class="fs-5">With Siprotani, its easy for you to buy kitchen necessity whenever and
+                     wherever you are of course with affordable prices.</p>
+                  <p class="fs-5">addition, the product marketed are superior and safe to use by
+                     consumers. Siprotani have a online payment and superior features for solve all the
+                     problem.</p>
+                  <p class="fs-5">Because siprotani uses digital payments, every purchase and sale of
+                     products can be made online and payments can also be made online, this of course can
+                     save a lot of time.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- section why should use siprotani nea -->
+      <section id="about-us-3" class="py-5">
+         <div class="container">
+            <!-- your code start here -->
+         </div>
+      </section>
+
+      <!-- section contact us dwik -->
+      <section id="contact-us" class="py-5 position-relative">
+         <div class="container mt-5">
+            <div class="row">
+               <div class="container col">
+                  <div class="mb-5">
+                     <h2 class="fw-bold text-success">GET IN TOUCH</h2>
+                     <p>Queries, concern, doubt? We’re to listen! Siprotani strives to offer the best possible service to
+                        every contact. Our support team make sure that you get the best advices and guidence regarding
+                        whatever queries you have.</p>
+                  </div>
+                  <div class="ms-3">
+                     <div class="row mb-2 d-flex">
+                        <i class="col-1 h3 me-2 fa-solid fa-envelope text-success"></i>
+                        <p class="col align-middle">siprotanihore@gmail.com</p>
+                     </div>
+                     <div class="row mb-2 d-flex">
+                        <i class="col-1 h3 me-2 fa-solid fa-phone text-success"></i>
+                        <p class="col align-middle">+6281 9176 7780</p>
+                     </div>
+                     <div class="row mb-2 d-flex">
+                        <i class="col-1 h3 me-2 fa-solid fa-location-dot text-success"></i>
+                        <p class="col align-middle">Jl. Seroja No. 36 Denpasar</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- form -->
+               <div class="col position-relative">
+                  <div class="container contact-card position-absolute">
+                     <div class="m-5">
+                        <div class="my-4 text-center">
+                           <h3 class="fw-bold text-success">Say Something!</h3>
+                        </div>
+                        <form name="Message">
+                           <div class="mb-3">
+                              <input type="text" class="form-control" name="Name" placeholder="Name" required>
+                           </div>
+                           <div class="mb-3">
+                              <input type="email" class="form-control" name="Email" placeholder="Email" required>
+                           </div>
+                           <div class="mb-3">
+                              <textarea class="form-control" name="Message" placeholder="Message" rows="10"
+                                 required></textarea>
+                           </div>
+                           <div id="liveAlertPlaceholder"></div>
+                           <button type="submit" class="btn btn-success">Send</button>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </section>
+
+      <!-- footer dwik -->
+      <footer class="position-relative">
+         <div class="footer">
+            <div class="container">
+               <div class="row py-5">
+                  <div class="col-4 me-5">
+                     <h2 class="fw-bold">SIPROTANI</h2>
+                     <p>Siprotani Hore is an application than make an easier for you as as seller who
+                        wants to sell and you as a buyer who wants to shop for a basic needs</p>
+                  </div>
+                  <div class="col">
+                     <h5 class="fw-bold">Navigasi</h5>
+                     <ul>
+                        <li>
+                           <a aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li>
+                           <a href="#product">Product</a>
+                        </li>
+                        <li>
+                           <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                           <a href="#contact-us">Contact</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="text-center mt-5 pt-5">
+                  <i class="mx-1 fa-brands fa-facebook"></i>
+                  <i class="mx-1 fa-brands fa-instagram"></i>
+                  <i class="mx-1 fa-brands fa-whatsapp"></i>
+               </div>
+               <div>
+                  <p>©2022Copyright by Siprotani Hore</p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- bootstrap js -->
+      <script src="assets/bootstrap-5.2.0-beta1-dist/js/bootstrap.js"></script>
+      <!-- AOS js -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <!-- js -->
+      <script src="assets/js/script.js"></script>
+   </body>
 </html>
