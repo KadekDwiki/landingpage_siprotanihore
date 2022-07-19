@@ -54,6 +54,7 @@
    <!-- hero banner jumbotron -->
    <section id="home" class="position-relative overflow-hidden">
       <span class="circle-jumbotron position-absolute"></span>
+      <span class="rectangle-jumbotron position-absolute"></span>
       <img src="assets/image/bintang-jumbotron.png" class="position-absolute dekor-bintang"
          alt="dekorasi bintang" width="400">
       <div class="container d-flex align-items-center pt-5">
@@ -239,19 +240,23 @@
       <section id="about-us-2" class="py-5">
          <div class="container">
             <!-- your code start here -->
-            <h1 class="text-uppercase text-success fw-bold text-center mb-5">why siprotani can be
+            <h1 class="text-uppercase text-success fw-bold text-center mb-5"  data-aos="zoom-in" data-aos-duration="500">why siprotani can be
                solution ?</h1>
             <div class="row justify-content-center align-items-center">
                <div class="col-6">
-                  <img src="assets/image/gambar pemandangan.png" alt="" class="w-100">
+                  <div class="wrapper position-relative" data-aos="fade-right" data-aos-duration="1000">
+                     <div class="pemandangan-wrapper overflow-hidden">
+                        <img src="assets/image/pemandangan.jpg" alt="rice field view" class="w-100 h-100">
+                     </div>
+                  </div>
                </div>
                <div class="col-6">
-                  <p class="fs-5">With Siprotani, its easy for you to buy kitchen necessity whenever and
+                  <p class="fs-5" data-aos="fade-left" data-aos-duration="600" >With Siprotani, its easy for you to buy kitchen necessity whenever and
                      wherever you are of course with affordable prices.</p>
-                  <p class="fs-5">addition, the product marketed are superior and safe to use by
+                  <p class="fs-5" data-aos="fade-left" data-aos-duration="600" data-aos-delay="50">addition, the product marketed are superior and safe to use by
                      consumers. Siprotani have a online payment and superior features for solve all the
                      problem.</p>
-                  <p class="fs-5">Because siprotani uses digital payments, every purchase and sale of
+                  <p class="fs-5" data-aos="fade-left" data-aos-duration="600" data-aos-delay="100">Because siprotani uses digital payments, every purchase and sale of
                      products can be made online and payments can also be made online, this of course can
                      save a lot of time.</p>
                </div>
@@ -299,6 +304,7 @@
                         <div class="my-4 text-center">
                            <h3 class="fw-bold text-success">Say Something!</h3>
                         </div>
+                        <div id="liveAlertPlaceholder"></div>
                         <form name="Message">
                            <div class="mb-3">
                               <input type="text" class="form-control" name="Name" placeholder="Name" required>
@@ -310,7 +316,7 @@
                               <textarea class="form-control" name="Message" placeholder="Message" rows="10"
                                  required></textarea>
                            </div>
-                           <div id="liveAlertPlaceholder"></div>
+                           
                            <button type="submit" class="btn btn-success">Send</button>
                         </form>
                      </div>

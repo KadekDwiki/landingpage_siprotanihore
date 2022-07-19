@@ -29,6 +29,8 @@ form.addEventListener("submit", (e) => {
    fetch(scriptURL, { method: "POST", body: new FormData(form) })
       .then((response) => alert2("Success!", "success"))
       .catch((error) => alert2("Error!", "danger"));
+
+   form.reset();
 });
 
 var alertPlaceholder = document.getElementById("liveAlertPlaceholder");
