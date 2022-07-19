@@ -79,9 +79,43 @@ nav {
    width: 100%;
    height: 300px;
    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
-   background-color: #18a558;
 }
-
+.card-1 {
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../assets/image/sembako.png"), linear-gradient(180deg, rgba(24, 165, 88, 0.8) 40.93%, rgba(0, 0, 0, 0.8) 96.89%);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.card-2 {
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../assets/image/sayur.png"), linear-gradient(180deg, rgba(24, 165, 88, 0.8) 40.93%, rgba(0, 0, 0, 0.8) 96.89%);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.card-3 {
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../assets/image/buah.png"), linear-gradient(180deg, rgba(24, 165, 88, 0.8) 40.93%, rgba(0, 0, 0, 0.8) 96.89%);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.card-4 {
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../assets/image/minuman.png"), linear-gradient(180deg, rgba(24, 165, 88, 0.8) 40.93%, rgba(0, 0, 0, 0.8) 96.89%);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.card-5 {
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../assets/image/snack.png"), linear-gradient(180deg, rgba(24, 165, 88, 0.8) 40.93%, rgba(0, 0, 0, 0.8) 96.89%);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.card-6 {
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../assets/image/craft.png"), linear-gradient(180deg, rgba(24, 165, 88, 0.8) 40.93%, rgba(0, 0, 0, 0.8) 96.89%);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
 .jumbotron-img img {
    width: 450px;
 }
@@ -121,11 +155,24 @@ nav {
    top: 25px;
    right: -10px;
 }
+.wrapper::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   border-radius: 10px;
+   width: 520px;
+   height: 400px;
+}
+
+.wrapper:hover::after {
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
 .pemandangan-wrapper img {
    transition: ease-out 0.5s;
    transform: scale(1.1);
 }
-.pemandangan-wrapper img:hover {
+.wrapper:hover .pemandangan-wrapper img {
    transform: scale(1);
 }
 
@@ -136,6 +183,7 @@ textarea {
 #contact-us {
    min-height: 600px;
 }
+
 .contact-card {
    background-color: #f6f6f6;
    box-shadow: 0px 0 30px 0 rgb(209 222 214 / 56%);
@@ -160,4 +208,17 @@ textarea {
 .footer a {
    text-decoration: none;
    color: inherit;
+}
+
+.fa-brands:hover {
+   font-size: large;
+   font-weight: bold;
+}
+
+.footer-nav {
+   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.footer-nav:hover {
+   color: rgba(255, 255, 255, 0.5);
 }
