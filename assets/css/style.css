@@ -140,6 +140,7 @@ textarea {
 #contact-us {
    min-height: 600px;
 }
+
 .contact-card {
    background-color: #f6f6f6;
    box-shadow: 0px 0 30px 0 rgb(209 222 214 / 56%);
@@ -164,4 +165,17 @@ textarea {
 .footer a {
    text-decoration: none;
    color: inherit;
+}
+
+.fa-brands:hover {
+   font-size: large;
+   font-weight: bold;
+}
+
+.footer-nav {
+   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.footer-nav:hover {
+   color: rgba(255, 255, 255, 0.5);
 }
