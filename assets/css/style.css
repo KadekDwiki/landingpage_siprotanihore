@@ -5,6 +5,7 @@
 :root {
    --dark-green: #18a558;
    --btn-danger: #f93a3a;
+   --gray: #f6f6f6;
 }
 
 /* style */
@@ -23,6 +24,13 @@ body {
 
 section {
    min-height: 100vh;
+}
+/* section background color */
+#product,
+#about-us-1,
+#about-us-2,
+#contact-us {
+   background-color: var(--gray);
 }
 
 .btn-danger {
@@ -185,7 +193,7 @@ textarea {
 }
 
 .contact-card {
-   background-color: #f6f6f6;
+   background-color: var(--gray);
    box-shadow: 0px 0 30px 0 rgb(209 222 214 / 56%);
    border-radius: 10px;
    z-index: 1;
@@ -193,7 +201,7 @@ textarea {
 
 .footer {
    background-color: #212121;
-   color: #f6f6f6;
+   color: var(--gray);
    position: absolute;
    left: 0;
    right: 0;
