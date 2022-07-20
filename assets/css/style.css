@@ -13,6 +13,12 @@ body {
    font-family: "Poppins", sans-serif;
 }
 
+.bg-green {
+  background-color: rgba(29, 198, 106, 0.95);
+  width: 90px;
+  height: 90px;
+}
+
 .text-success {
    color: var(--dark-green) !important;
 }
