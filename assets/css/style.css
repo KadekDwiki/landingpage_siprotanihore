@@ -243,3 +243,22 @@ textarea {
 .footer-nav:hover {
    color: rgba(255, 255, 255, 0.5);
 }
+
+/* ============== responsive ukuran layar lebih dari 768px ============*/
+@media screen and (max-width: 768px) {
+   /* responsive header dan jumbotron || dwiki */
+   .navbar-nav {
+      padding-top: 20px;
+   }
+   .desc-jumbotron {
+      padding: 100px 0 30px 20px;
+   }
+   .title-banner {
+      font-size: 3rem;
+   }
+   /* responsive product dan portfolio || adit */
+
+   /* responsive about us || nea */
+
+   /* responsive contact us dan footer || dwi kusuma */
+}
