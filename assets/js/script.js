@@ -6,11 +6,11 @@ window.addEventListener("scroll", () => {
    if (window.scrollY >= 50) {
       navbar.classList.add("bg-white");
       navbar.classList.add("shadow-sm");
-      navbar.classList.remove("py-3");
+      navbar.classList.remove("py-4");
    } else {
       navbar.classList.remove("bg-white");
       navbar.classList.remove("shadow-sm");
-      navbar.classList.add("py-3");
+      navbar.classList.add("py-4");
    }
 });
 

@@ -37,7 +37,7 @@ section {
 .btn-danger {
    --bs-btn-bg: var(--btn-danger);
    --bs-btn-border-color: #dc3545;
-   --bs-btn-hover-bg: #ff2222;
+   --bs-btn-hover-bg: #ec1919;
    --bs-btn-hover-border-color: #b02a37;
    --bs-btn-active-bg: var(--btn-danger);
    --bs-btn-active-border-color: #a52834;
@@ -84,6 +84,7 @@ nav {
    transform: rotate(15deg);
 }
 
+/* card */
 .card {
    width: 100%;
    height: 300px;
@@ -185,6 +186,17 @@ nav {
    transform: scale(1);
 }
 
+.icon-wrapper {
+   background-color: rgba(29, 198, 106, 0.95);
+   width: 90px;
+   height: 90px;
+   box-shadow: 0 4px 10px rgba(24, 165, 88, 0.6);
+   transition: ease-out 0.3s;
+}
+
+.icon-wrapper:hover {
+   box-shadow: none;
+}
 /* CONTACT & FOOTER */
 textarea {
    resize: none;
