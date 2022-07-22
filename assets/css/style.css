@@ -258,6 +258,10 @@ textarea {
    }
    /* responsive product dan portfolio || adit */
 
+   .port-item{
+      width: 50%;
+   }
+
    /* responsive about us || nea */
 
    /* responsive contact us dan footer || dwi kusuma */
