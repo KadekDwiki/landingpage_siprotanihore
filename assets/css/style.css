@@ -244,6 +244,11 @@ textarea {
    color: rgba(255, 255, 255, 0.5);
 }
 
+#copyright {
+   font-size: 10px;
+   text-align: center;
+}
+
 /* ============== responsive ukuran layar lebih dari 768px ============*/
 @media screen and (max-width: 768px) {
    /* responsive header dan jumbotron || dwiki */
@@ -265,4 +270,12 @@ textarea {
    /* responsive about us || nea */
 
    /* responsive contact us dan footer || dwi kusuma */
+   .contact-card textarea {
+      height: 10em;
+   }
+
+   .contact-container {
+      height: 500px;
+      padding: 0;
+   }
 }
