@@ -3,243 +3,248 @@
 
 /* root */
 :root {
-   --dark-green: #18a558;
-   --btn-danger: #f93a3a;
-   --gray: #f6f6f6;
+  --dark-green: #18a558;
+  --btn-danger: #f93a3a;
+  --gray: #f6f6f6;
 }
 
 /* style */
 body {
-   font-family: "Poppins", sans-serif;
-   overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 .text-success {
-   color: var(--dark-green) !important;
+  color: var(--dark-green) !important;
 }
 
 .active {
-   color: var(--dark-green) !important;
-   font-weight: 600;
+  color: var(--dark-green) !important;
+  font-weight: 600;
 }
 
 section {
-   min-height: 100vh;
+  min-height: 100vh;
 }
 /* section background color */
 #product,
 #about-us-1,
 #about-us-2,
 #contact-us {
-   background-color: var(--gray);
+  background-color: var(--gray);
 }
 
 .btn-danger {
-   --bs-btn-bg: var(--btn-danger);
-   --bs-btn-border-color: #dc3545;
-   --bs-btn-hover-bg: #ec1919;
-   --bs-btn-hover-border-color: #b02a37;
-   --bs-btn-active-bg: var(--btn-danger);
-   --bs-btn-active-border-color: #a52834;
-   border-radius: 30px;
+  --bs-btn-bg: var(--btn-danger);
+  --bs-btn-border-color: #dc3545;
+  --bs-btn-hover-bg: #ec1919;
+  --bs-btn-hover-border-color: #b02a37;
+  --bs-btn-active-bg: var(--btn-danger);
+  --bs-btn-active-border-color: #a52834;
+  border-radius: 30px;
 }
 
 .btn-outline-danger {
-   --bs-btn-color: var(--btn-danger);
-   --bs-btn-border-color: var(--btn-danger);
-   --bs-btn-hover-bg: var(--btn-danger);
-   --bs-btn-hover-border-color: var(--btn-danger);
-   --bs-btn-active-bg: var(--btn-danger);
-   --bs-btn-active-border-color: var(--btn-danger);
-   --bs-btn-disabled-color: var(--btn-danger);
-   border-radius: 30px;
+  --bs-btn-color: var(--btn-danger);
+  --bs-btn-border-color: var(--btn-danger);
+  --bs-btn-hover-bg: var(--btn-danger);
+  --bs-btn-hover-border-color: var(--btn-danger);
+  --bs-btn-active-bg: var(--btn-danger);
+  --bs-btn-active-border-color: var(--btn-danger);
+  --bs-btn-disabled-color: var(--btn-danger);
+  border-radius: 30px;
 }
 
 .title-banner {
-   font-size: 3.7rem;
+  font-size: 3.7rem;
 }
 
 /* header and nav */
 nav {
-   transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 .circle-jumbotron {
-   top: -230px;
-   left: -150px;
-   height: 500px;
-   width: 500px;
-   background-color: var(--dark-green);
-   border-radius: 50%;
-   opacity: 7%;
+  top: -230px;
+  left: -150px;
+  height: 500px;
+  width: 500px;
+  background-color: var(--dark-green);
+  border-radius: 50%;
+  opacity: 7%;
 }
 
 .rectangle-jumbotron {
-   top: -100px;
-   right: -150px;
-   height: 200px;
-   width: 600px;
-   background-color: var(--dark-green);
-   opacity: 7%;
-   transform: rotate(15deg);
+  top: -100px;
+  right: -150px;
+  height: 200px;
+  width: 600px;
+  background-color: var(--dark-green);
+  opacity: 7%;
+  transform: rotate(15deg);
 }
 
 /* card */
 .card {
-   width: 100%;
-   height: 300px;
-   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 300px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
 }
 .card-1 {
-   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../assets/image/sembako.png"), linear-gradient(180deg, rgba(24, 165, 88, 0.8) 40.93%, rgba(0, 0, 0, 0.8) 96.89%);
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../assets/image/sembako.png"), linear-gradient(180deg, rgba(24, 165, 88, 0.8) 40.93%, rgba(0, 0, 0, 0.8) 96.89%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .card-2 {
-   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../assets/image/sayur.png"), linear-gradient(180deg, rgba(24, 165, 88, 0.8) 40.93%, rgba(0, 0, 0, 0.8) 96.89%);
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../assets/image/sayur.png"), linear-gradient(180deg, rgba(24, 165, 88, 0.8) 40.93%, rgba(0, 0, 0, 0.8) 96.89%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .card-3 {
-   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../assets/image/buah.png"), linear-gradient(180deg, rgba(24, 165, 88, 0.8) 40.93%, rgba(0, 0, 0, 0.8) 96.89%);
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../assets/image/buah.png"), linear-gradient(180deg, rgba(24, 165, 88, 0.8) 40.93%, rgba(0, 0, 0, 0.8) 96.89%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .card-4 {
-   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../assets/image/minuman.png"), linear-gradient(180deg, rgba(24, 165, 88, 0.8) 40.93%, rgba(0, 0, 0, 0.8) 96.89%);
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../assets/image/minuman.png"), linear-gradient(180deg, rgba(24, 165, 88, 0.8) 40.93%, rgba(0, 0, 0, 0.8) 96.89%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .card-5 {
-   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../assets/image/snack.png"), linear-gradient(180deg, rgba(24, 165, 88, 0.8) 40.93%, rgba(0, 0, 0, 0.8) 96.89%);
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../assets/image/snack.png"), linear-gradient(180deg, rgba(24, 165, 88, 0.8) 40.93%, rgba(0, 0, 0, 0.8) 96.89%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .card-6 {
-   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../assets/image/craft.png"), linear-gradient(180deg, rgba(24, 165, 88, 0.8) 40.93%, rgba(0, 0, 0, 0.8) 96.89%);
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../assets/image/craft.png"), linear-gradient(180deg, rgba(24, 165, 88, 0.8) 40.93%, rgba(0, 0, 0, 0.8) 96.89%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .jumbotron-img img {
-   width: 450px;
+  width: 450px;
 }
 
 .dekor-bintang {
-   left: 0;
-   bottom: -30px;
+  left: 0;
+  bottom: -30px;
 }
 
 .loader-wrapper {
-   height: 100vh;
-   width: 100%;
-   z-index: 9999;
-   background-color: #fff;
+  height: 100vh;
+  width: 100%;
+  z-index: 9999;
+  background-color: #fff;
 }
 
 .loader {
-   animation: loader 1s forwards;
+  animation: loader 1s forwards;
 }
 
 @keyframes loader {
-   100% {
-      opacity: 0;
-      visibility: hidden;
-   }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 /* about us */
 .pemandangan-wrapper {
-   width: 520px;
-   height: 400px;
-   border-radius: 10px;
-   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
+  width: 520px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
 }
 .wrapper::before {
-   content: url("../image/dots.png");
-   position: absolute;
-   top: 25px;
-   right: -10px;
+  content: url("../image/dots.png");
+  position: absolute;
+  top: 25px;
+  right: -10px;
 }
 .wrapper::after {
-   content: "";
-   position: absolute;
-   top: 0;
-   left: 0;
-   border-radius: 10px;
-   width: 520px;
-   height: 400px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  width: 520px;
+  height: 400px;
 }
 
 .wrapper:hover::after {
-   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
 }
 .pemandangan-wrapper img {
-   transition: ease-out 0.5s;
-   transform: scale(1.1);
+  transition: ease-out 0.5s;
+  transform: scale(1.1);
 }
 .wrapper:hover .pemandangan-wrapper img {
-   transform: scale(1);
+  transform: scale(1);
 }
 
 .icon-wrapper {
-   background-color: rgba(29, 198, 106, 0.95);
-   width: 90px;
-   height: 90px;
-   box-shadow: 0 4px 10px rgba(24, 165, 88, 0.6);
-   transition: ease-out 0.3s;
+  background-color: rgba(29, 198, 106, 0.95);
+  width: 90px;
+  height: 90px;
+  box-shadow: 0 4px 10px rgba(24, 165, 88, 0.6);
+  transition: ease-out 0.3s;
 }
 
 .icon-wrapper:hover {
-   box-shadow: none;
+  box-shadow: none;
 }
+
+.wave-3 {
+  margin-top: -200px;
+}
+
 /* CONTACT & FOOTER */
 textarea {
-   resize: none;
+  resize: none;
 }
 #contact-us {
-   min-height: 600px;
+  min-height: 600px;
 }
 
 .contact-card {
-   background-color: var(--gray);
-   box-shadow: 0px 0 30px 0 rgb(209 222 214 / 56%);
-   border-radius: 10px;
-   z-index: 1;
+  background-color: var(--gray);
+  box-shadow: 0px 0 30px 0 rgb(209 222 214 / 56%);
+  border-radius: 10px;
+  z-index: 1;
 }
 
 .footer {
-   background-color: #212121;
-   color: var(--gray);
-   position: absolute;
-   left: 0;
-   right: 0;
-   /* top: -280px; */
+  background-color: #212121;
+  color: var(--gray);
+  position: absolute;
+  left: 0;
+  right: 0;
+  /* top: -280px; */
 }
 
 .footer ul {
-   list-style: none;
-   margin-left: -30px;
+  list-style: none;
+  margin-left: -30px;
 }
 
 .footer a {
-   text-decoration: none;
-   color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .fa-brands:hover {
-   font-size: large;
-   font-weight: bold;
+  font-size: large;
+  font-weight: bold;
 }
 
 .footer-nav {
-   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
 .footer-nav:hover {
-   color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
