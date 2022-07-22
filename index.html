@@ -16,10 +16,10 @@
    </head>
    <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
       <!-- navbar -->
-      <nav class="navbar navbar-expand-lg py-3 fixed-top" id="navbar">
-         <div class="container-fluid px-5 d-flex justify-content-between">
-            <a class="navbar-brand fw-bold text-success" href="#">
-               <!-- <img src="assets/image/sh customer.png" alt="siprotani logo" width="30"> -->
+      <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+         <div class="container-md d-flex justify-content-between">
+            <a class="navbar-brand fw-bold text-success" href="./">
+               <img src="assets/image/sh customer.png" class="rounded-circle" alt="logo siprotani" width="50" data-aos="flip-left" data-aos-duration="1500">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,7 @@
          <span class="rectangle-jumbotron position-absolute d-none d-md-block"></span>
          <img src="assets/image/bintang-jumbotron.png" class="position-absolute dekor-bintang d-none d-md-block"
             alt="dekorasi bintang" width="400">
-         <div class="container d-flex align-items-center pt-5">
+         <div class="container-md d-flex align-items-center pt-5 jumbotron">
             <div class="row align-items-center justify-content-between pt-3">
                <div class="col-md-6 desc-jumbotron"  data-aos="fade-right" data-aos-duration="1000">
                   <h1 class="fw-bold text-capitalize lh-md text-success title-banner">siprotani hore</h1>
@@ -67,8 +67,8 @@
                      </a>
                   </div>
                </div>
-               <div class="col-md-6 text-end jumbotron-img">
-                  <img src="assets/image/banner_image.png" class="pt-5" data-aos="fade-left" data-aos-duration="1500" alt="jumbotron image"></i>
+               <div class="col-md-6 text-end jumbotron-img d-none d-md-block">
+                  <img src="assets/image/banner_image.png" class="py-4" data-aos="fade-left" data-aos-duration="1500" alt="jumbotron image"></i>
                </div>
             </div>
          </div>
@@ -153,22 +153,22 @@
          <h5 class="text-center mb-5 mt-3 text-success"> Periode Jul 04-Aug 04</h5>
          <div class="container mt-5 pt-2">
             <div class="row mt-5">
-               <div class="col-md-3 d-block text-center" data-aos="zoom-out-up" data-aos-duration="1000">
+               <div class="col-md-3 d-block text-center port-item" data-aos="zoom-out-up" data-aos-duration="1000">
                   <i class="fa-solid fa-user-group fa-4x mx-4"></i>
                   <p>client</p>
                   <p class="fs-3" id="client"></p>
                </div>
-               <div class="col-md-3 d-block text-center" data-aos="zoom-out-up" data-aos-duration="1200">
+               <div class="col-md-3 d-block text-center port-item" data-aos="zoom-out-up" data-aos-duration="1200">
                   <i class="fa-solid fa-award fa-4x mx-4"></i>
                   <p>Review</p>
                   <p class="fs-3" id="review"></p>
                </div>
-               <div class="col-md-3 d-block text-center" data-aos="zoom-out-up" data-aos-duration="1400">
+               <div class="col-md-3 d-block text-center port-item" data-aos="zoom-out-up" data-aos-duration="1400">
                   <i class="fa-solid fa-download fa-4x mx-4"></i>
                   <p>Download</p>
                   <p class="fs-3" id="download"></p>
                </div>
-               <div class="col-md-3 d-block text-center" data-aos="zoom-out-up" data-aos-duration="1600">
+               <div class="col-md-3 d-block text-center port-item" data-aos="zoom-out-up" data-aos-duration="1600">
                   <i class="fa-solid fa-box-open fa-4x mx-4"></i>
                   <p>Product</p>
                   <p class="fs-3" id="produk"></p>
@@ -189,29 +189,29 @@
                   </div>
             </div>
             <div class="row justify-content-center mb-5 fs-5 text-center" data-aos="zoom-in" data-aos-duration="1000">
-               <div class="col-4 fs-5">
+               <div class="col-md-4 col-problem">
                   <h4 class="fw-bold">Can't Tracked</h4>
                   <p>The order can not tracked on details location, who sent and when arrive</p>
                </div>
-               <div class="col-4">
+               <div class="col-md-4 col-problem">
                   <h4 class="fw-bold">Slow Delivery</h4>
                   <p>Slow delivery will certainly be very displeasign to customer, especially if the item will be used as soon as possible</p>
                </div>
-               <div class="col-4">
+               <div class="col-md-4 col-problem">
                   <h4 class="fw-bold">Long Distance</h4>
                   <p>Long distance effect on long delivery and more extra shipping cost</p>
                </div>
             </div>
-            <div class="row justify-content-ceter fs-5 text-center" data-aos="zoom-in" data-aos-duration="1000">
-               <div class="col-4">
+            <div class="row justify-content-ceter fs-5 text-center row-about-problem" data-aos="zoom-in" data-aos-duration="1000">
+               <div class="col-md-4 col-problem">
                   <h4 class="fw-bold">Have to Meet</h4>
                   <p>Regires customer to meet face by face which, consume time and travel cost</p>
                </div>
-               <div class="col-4">
+               <div class="col-md-4 col-problem">
                   <h4 class="fw-bold">Impractical Transaction</h4>
                   <p>Sellers need time to calculate and evaluate revenue manually</p>
                </div>
-               <div class="col-4">
+               <div class="col-md-4 col-problem">
                   <h4 class="fw-bold">Market Reach</h4>
                   <p>Product are only sold to customers in the nearest market or local market</p>
                </div>
@@ -248,7 +248,7 @@
       </section>
 
       <!-- section why should use siprotani nea -->
-      <section id="about-us-3" class="pt-5">
+      <section id="about-us-3" class="pt-5 position-relative">
          <div class="container">
             <div class="row mb-5 fs-5">
                <h3 class="text-center fw-bold text-success" data-aos="fade-up" data-aos-duration="1000">WHY SHOULD USE SIPROTANI?</h3>

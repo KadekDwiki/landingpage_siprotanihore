@@ -161,9 +161,11 @@ nav {
 }
 .wrapper::before {
   content: url("../image/dots.png");
+  width: 520px;
+  height: 400px;
   position: absolute;
   top: 25px;
-  right: -10px;
+  right: 10px;
 }
 .wrapper::after {
   content: "";
@@ -247,4 +249,43 @@ textarea {
 
 .footer-nav:hover {
   color: rgba(255, 255, 255, 0.5);
+}
+
+/* ============== responsive ukuran layar lebih dari 768px ============*/
+@media screen and (max-width: 768px) {
+  /* responsive header dan jumbotron || dwiki */
+  .navbar-nav {
+    padding-top: 20px;
+  }
+  .desc-jumbotron {
+    padding: 100px 0 30px 20px;
+  }
+  .title-banner {
+    font-size: 3rem;
+  }
+  /* responsive product dan portfolio || adit */
+
+  .port-item {
+    width: 50%;
+  }
+
+  /* responsive about us || nea & dwiki */
+  .pemandangan-wrapper {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+  }
+  .wrapper::before {
+    display: none;
+  }
+  .wrapper::after {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* problem */
+  .row-about-problem {
+    margin-top: 0px;
+  }
+  /* responsive contact us dan footer || dwi kusuma */
 }
