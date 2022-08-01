@@ -201,7 +201,8 @@ nav {
 }
 
 .wave-3 {
-   margin-top: -200px;
+   position: absolute;
+   bottom: 0;
 }
 
 /* CONTACT & FOOTER */
