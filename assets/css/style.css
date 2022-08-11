@@ -165,7 +165,7 @@ nav {
    height: 400px;
    position: absolute;
    top: 25px;
-   right: 10px;
+   left: 10px;
 }
 .wrapper::after {
    content: "";
