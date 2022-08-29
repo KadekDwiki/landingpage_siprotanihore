@@ -48,14 +48,24 @@ animateValue(produk, 500, 6, 5000);
 // FORM KE SPREADSHEET
 const scriptURL = "https://script.google.com/macros/s/AKfycbytyFvLUlzTi9A0Zt21SN8p_FxMO2rLdk37-xqJjNx2eelu8UXTqdaZmsm4ZmAma2KC/exec";
 const form = document.forms["Message"];
-
+const btnKirim = document.querySelector(".btn-kirim");
+const btnLoading = document.querySelector(".btn-loading");
 form.addEventListener("submit", (e) => {
    e.preventDefault();
+   btnLoading.classList.toggle("d-none");
+   btnKirim.classList.toggle("d-none");
    fetch(scriptURL, { method: "POST", body: new FormData(form) })
-      .then((response) => alert2("Success!", "success"))
-      .catch((error) => alert2("Error!", "danger"));
+      .then((response) => {
+         btnLoading.classList.toggle("d-none");
+         btnKirim.classList.toggle("d-none");
 
-   form.reset();
+         alert2("Success!", "success");
+         form.reset();
+      })
+      .catch((error) => {
+         console.log(error);
+         alert2("Error!", "danger");
+      });
 });
 
 var alertPlaceholder = document.getElementById("liveAlertPlaceholder");
